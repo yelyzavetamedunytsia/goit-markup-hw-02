@@ -1,0 +1,93 @@
+.body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #2E2F42;
+    background-color: #E5E5E5
+}
+
+
+.navigation a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #2E2F42;
+    text-decoration: none;
+    }
+
+.navigation .link:hover {
+    color: #404BBF;
+    text-decoration: none;
+}
+
+.navigation .link:active {
+   color: #404BBF;
+   text-decoration: underline;
+}
+
+.contacts a {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        line-height: 1.5;
+        font-size: 16px;
+        color: #434455;
+        text-decoration: none;
+
+}
+
+.contacts .link:hover {
+    color: #404BBF;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.opening {
+        font-family: "Roboto", sans-serif;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #2E2F42;
+}
+.button {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+        cursor: pointer;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+
+p {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+h2 {
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
