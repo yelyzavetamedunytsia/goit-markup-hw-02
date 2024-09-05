@@ -1,10 +1,22 @@
 .body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2E2F42;
-    background-color: #E5E5E5
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
 
+.span {
+    color: #2E2F42;
+}
 .navigation a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -12,6 +24,7 @@
     font-size: 16px;
     color: #2E2F42;
     text-decoration: none;
+    letter-spacing: 0.02em;
     }
 
 .navigation .link:hover {
@@ -24,14 +37,18 @@
    text-decoration: underline;
 }
 
+.address {
+    font-style: normal;
+}
+
 .contacts a {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 400;
         line-height: 1.5;
         font-size: 16px;
         color: #434455;
         text-decoration: none;
+        letter-spacing: 0.02em;
 
 }
 
@@ -44,11 +61,14 @@ ul {
     list-style-type: none;
 }
 
+.openingh {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
 .opening {
         font-family: "Roboto", sans-serif;
-        font-size: 56px;
         font-weight: 700;
-        line-height: 1.2;
         text-align: center;
         color: #FFFFFF;
         background-color: #2E2F42;
@@ -61,33 +81,57 @@ ul {
         color: #FFFFFF;
         background-color: #4D5AE5;
         cursor: pointer;
+        letter-spacing: 0.04em;
 }
 
 .button:hover {
     background-color: #404BBF;
 }
 
-h3 {
+.teamh {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
 
-p {
+
+.teamp {
         font-family: Roboto;
         font-size: 16px;
-        line-height: 1.2;
+        line-height: 1.5;
         letter-spacing: 0.02em;
+        color: #434455;
+
 }
 
-h2 {
+.contenth {
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.teamul {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2E2F42;
+
+}
+
+.footerp {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
