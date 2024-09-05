@@ -14,7 +14,7 @@
     color: #4D5AE5;
 }
 
-.span {
+.logol {
     color: #2E2F42;
 }
 .navigation a {
@@ -27,7 +27,9 @@
     letter-spacing: 0.02em;
     }
 
-.navigation .link:hover {
+.navigation .link:hover,
+.navigation .link:focus
+{
     color: #404BBF;
     text-decoration: none;
 }
@@ -52,7 +54,9 @@
 
 }
 
-.contacts .link:hover {
+.contacts .link:hover,
+.contacts .link:focus
+{
     color: #404BBF;
     text-decoration: none;
 }
@@ -84,7 +88,9 @@ ul {
         letter-spacing: 0.04em;
 }
 
-.button:hover {
+.button:hover,
+.button:focus
+{
     background-color: #404BBF;
 }
 
@@ -94,6 +100,7 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 
@@ -115,6 +122,7 @@ ul {
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        color: #2E2F42;
 }
 
 .team {
@@ -134,4 +142,8 @@ ul {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.logolf {
+    color: #F4F4FD;
 }
